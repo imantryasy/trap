@@ -30,9 +30,12 @@ echo " ==    Trap Project     =="
 sleep 0.7
 echo " ========================="
 echo " Trap Project adalah tools untuk"
-echo " mendapatkan IP atau lokasi Target"
+echo " Mendapatkan IP atau Lokasi Target"
 echo
-echo Selamat datang $nick ":)" Jones! :v
+echo Selamat datang $nick ":)"  
+echo
+echo "Love you always :*"
+echo "~~Nicko Adlyanda [Chester] :)"
 echo 
 get_url=$(curl -s http://zlucifer.com/api/trap.php) #cek status
 cek='curl -s '$get_url # check status
@@ -81,7 +84,7 @@ else
     fi
         let i++
     done    
-        echo "ingin melakukan pengecekan?"
+        echo "Ingin melakukan pengecekan?"
         echo "y/n?"
         read cek_lagi
     if [ $cek_lagi = "y" ]; then
@@ -92,6 +95,8 @@ else
         curl -s $get_url/cek.php?input=$file #cek
     elif [ $cek_lagi = "n" ]; then
         echo "Terimakasih sudah menggunakan Trap Project :)"
+        echo "Love you always :*"
+        echo "~~Nicko Adlyanda [Chester] :)"
     fi
 
 
